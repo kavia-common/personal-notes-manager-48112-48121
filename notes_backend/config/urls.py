@@ -28,9 +28,9 @@ urlpatterns = [
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="My API",
+      title="Personal Notes API",
       default_version='v1',
-      description="Test description",
+      description="Ocean Professional — RESTful endpoints for creating, updating, listing, and archiving personal notes.",
    ),
    public=True,
    permission_classes=(permissions.AllowAny,),
